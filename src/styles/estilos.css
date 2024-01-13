@@ -1,0 +1,32 @@
+#Contenedor {
+  background-color: chocolate;
+  height: 88vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#btnGroup>button {
+  border-radius: 0;
+  border: 2px solid rgb(182, 179, 179);
+  height: 50vh;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  z-index: 1;
+}
+
+.white {
+  position: absolute;
+  z-index: 1;
+  background-color: wheat;
+}
+
+.dark {
+  background-color: black;
+  color: white;
+  position: relative;
+  right: 22vh;
+  z-index: 2;
+}
